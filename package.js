@@ -8,6 +8,7 @@ Package.describe({
 
 const both = ['client','server'],
       packages = [
+        'ecmascript'
       ]
 
 Package.onUse(function(api) {
