@@ -16,5 +16,4 @@ Package.onUse(function(api) {
     api.imply(packages)
 
     api.addFiles('lib/client/wysiwyg.js', 'client')
-
 })
