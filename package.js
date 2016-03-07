@@ -1,6 +1,6 @@
 Package.describe({
   name: 'heaven7:wsl-wysiwyg',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Wysiwyg package',
   git: 'https://github.com/heaven7/wsl-wysiwyg.git',
   documentation: 'README.md'
@@ -8,7 +8,8 @@ Package.describe({
 
 const both = ['client','server'],
       packages = [
-        'ecmascript'
+        'ecmascript',
+        'es5-shim'
       ]
 
 Package.onUse(function(api) {
